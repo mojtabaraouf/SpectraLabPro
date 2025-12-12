@@ -99,7 +99,6 @@ The GUI will open immediately.
 
 ## License
 Intended for research, educational, and laboratory use.  
-*Add your preferred license information here.*
 SpectTek Co. 
 
 ---
