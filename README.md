@@ -55,7 +55,7 @@ The GUI will open immediately.
 
 ## Connecting the Spectrometer
 1. Click **Connect Spectrometer**
-2. Enter the password: `SpectTek`
+2. Enter the password: `email to specttek@gmail.com`
 3. Upon successful authentication, the device connects and live acquisition starts.  
    *Note: The password is requested only during connection, not at startup.*
 
