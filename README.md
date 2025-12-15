@@ -71,6 +71,7 @@ The GUI will open immediately.
    - Transmission
    - Reflection
    - Relative Irradiance
+<img width="1433" height="796" alt="6" src="https://github.com/user-attachments/assets/b4e22c3d-d399-49dd-a180-51a63cfb6107" />
 
 ---
 
