@@ -349,7 +349,7 @@ The software asks for a password before connecting.
 Default password:
 
 ```text
-SpectTek
+email to specttec@gmail.com
 ```
 
 ---
