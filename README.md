@@ -444,8 +444,7 @@ For gas absorption work, **Absorbance** is usually preferred.
    - Transmission
    - Reflection
    - Relative Irradiance
-<img width="1433" height="796" alt="6" src="https://github.com/user-attachments/assets/b4e22c3d-d399-49dd-a180-51a63cfb6107" />
->>>>>>> ad847ebd71969937432d3ec8991d01dfcf18b030
+
 
 ---
 
@@ -732,6 +731,7 @@ Planned or possible extensions:
 - support for non-SeaBreeze spectrometers
 
 ---
+<img width="1430" height="787" alt="Screenshot 2026-05-21 at 23 22 29" src="https://github.com/user-attachments/assets/c93f3327-8357-4f31-8449-628b1959c424" />
 
 ## Citation / Acknowledgment
 
@@ -747,4 +747,4 @@ SpectraLab Dual-Range Volatile Tracer Suite, SpectTek Co., 2026.
 
 **SpectTek Co.**  
 LinkedIn: <https://www.linkedin.com/in/specttek/>
-
+email: specttek@gmail.com
