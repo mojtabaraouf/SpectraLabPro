@@ -1,18 +1,46 @@
-# Core scientific stack
-numpy>=1.20
-matplotlib>=3.5
-pandas>=1.4
+# =========================================================
 
-# Spectrometer interface (Ocean Optics / Ocean Insight)
-seabreeze>=2.0
+# SpectraLab Dual-Range Volatile Tracer Suite
 
-# Recommended backend for stability and performance
-seabreeze[cse]
-Notes (do NOT include these in the file)
-seabreeze[cse] enables the C backend and is strongly recommended
-Works with Python 3.8+
-Tkinter is included with standard Python distributions (no need to list)
-If you want, I can also provide:
-a minimal requirements.txt (no extras)
-a conda environment.yml
-or a frozen requirements-lock.txt for reproducibility
+# Requirements File
+
+# =========================================================
+
+# Core numerical processing
+
+numpy>=1.24
+pandas>=2.0
+
+# Plotting and GUI visualization
+
+matplotlib>=3.7
+
+# Spectrometer communication
+
+seabreeze>=2.10
+
+# Optional faster SeaBreeze backend
+
+# Install manually if needed:
+
+# pip install seabreeze[cse]
+
+# =========================================================
+
+# Notes
+
+# =========================================================
+
+# tkinter is included with most Python installations.
+
+# On Ubuntu/Debian Linux install with:
+
+# sudo apt-get install python3-tk
+
+#
+
+# Tested Python versions:
+
+# Python 3.10+
+
+# =========================================================
