@@ -349,11 +349,19 @@ The software asks for a password before connecting.
 Default password:
 
 ```text
+<<<<<<< HEAD
 SpectTek
+=======
+email to specttec@gmail.com
+>>>>>>> 4f9fe066fb18dc843168a925c410ec8ea7a42656
 ```
 
 ---
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 4f9fe066fb18dc843168a925c410ec8ea7a42656
 ## Measurement Workflow
 
 ### 1. Set exposure
@@ -432,6 +440,7 @@ Use one of the following modes:
 - Normalized
 
 For gas absorption work, **Absorbance** is usually preferred.
+<<<<<<< HEAD
 
 ---
 
@@ -451,6 +460,159 @@ The CSV file should contain either:
 wavelength_nm,intensity
 ```
 
+or two columns where:
+
+- column 1 = wavelength in nm
+- column 2 = intensity
+
+Example:
+
+```csv
+wavelength_nm,intensity
+900,0.98
+901,0.97
+902,0.96
+```
+
+Imported spectra are automatically assigned to:
+
+- UV/VIS if maximum wavelength is ≤ 900 nm
+- SWIR if maximum wavelength is > 900 nm
+
+---
+
+## Exporting Data
+
+### Save last spectrum
+=======
+=======
+## Basic Workflow
+1. **Scope** – Adjust integration time and averaging, check signal level
+2. **Capture Dark** – Block light and capture background
+3. **Capture Reference** – Measure blank, then click **Set Ref** (last)
+4. **Select measurement mode:**
+   - Scope − Dark
+   - Absorbance
+   - Transmission
+   - Reflection
+   - Relative Irradiance
+
+
+---
+
+## Importing External Spectrum CSV Files
+
+The GUI can import external spectrum files from the hard drive.
+>>>>>>> 4f9fe066fb18dc843168a925c410ec8ea7a42656
+
+Click:
+
+```text
+<<<<<<< HEAD
+Save Last Spectrum
+```
+
+The output CSV contains:
+=======
+Import Spectrum CSV
+```
+
+The CSV file should contain either:
+>>>>>>> 4f9fe066fb18dc843168a925c410ec8ea7a42656
+
+```text
+wavelength_nm,intensity
+```
+
+<<<<<<< HEAD
+### Export measurements
+
+After measuring tracer features, click:
+
+```text
+Export Measurements
+```
+
+The output file contains:
+
+- spectrum label
+- species
+- tracer name
+- central wavelength
+- feature type
+- peak strength
+- integrated strength
+- equivalent width
+- SNR
+- detection note
+
+---
+
+## Tracer Measurement Method
+
+The code measures each selected feature by:
+
+1. selecting a feature window around the tracer wavelength
+2. selecting left and right continuum regions
+3. fitting a local linear continuum
+4. subtracting the continuum
+5. calculating residual feature strength
+6. estimating peak/trough signal
+7. estimating integrated band strength
+8. estimating equivalent width
+9. estimating SNR from continuum residual noise
+
+For absorption bands, the code treats negative residuals as absorption strength.
+
+For emission lines, the code measures positive residual peaks.
+
+---
+
+## Tabs in the GUI
+
+### Main Tab
+
+Contains:
+
+- spectrometer connection controls
+- device index selection
+- dark capture
+- spectrum capture
+- reference setting
+- exposure settings
+- processing mode
+- live display options
+- status box
+
+### Tracers Tab
+
+Contains:
+
+- species selection
+- tracer selection
+- zoom-to-feature button
+- measure selected feature button
+- measure all visible features button
+- export measurements button
+
+### Files Tab
+
+Contains:
+
+- import spectrum CSV
+- save last spectrum
+- list of captured/imported spectra
+- remove selected spectrum
+- change spectrum color
+- clear all spectra
+
+### Diagnostics Tab
+
+Contains a summary of the diagnostic H₂O and CO₂ lines/bands used in the software.
+
+---
+
+=======
 or two columns where:
 
 - column 1 = wavelength in nm
@@ -575,6 +737,7 @@ Contains a summary of the diagnostic H₂O and CO₂ lines/bands used in the sof
 
 ---
 
+>>>>>>> 4f9fe066fb18dc843168a925c410ec8ea7a42656
 ## Important Notes About Interpretation
 
 A single optical line is not always unique to one molecule.
@@ -718,6 +881,10 @@ Planned or possible extensions:
 - support for non-SeaBreeze spectrometers
 
 ---
+<<<<<<< HEAD
+=======
+<img width="1430" height="787" alt="Screenshot 2026-05-21 at 23 22 29" src="https://github.com/user-attachments/assets/c93f3327-8357-4f31-8449-628b1959c424" />
+>>>>>>> 4f9fe066fb18dc843168a925c410ec8ea7a42656
 
 ## Citation / Acknowledgment
 
@@ -733,4 +900,8 @@ SpectraLab Dual-Range Volatile Tracer Suite, SpectTek Co., 2026.
 
 **SpectTek Co.**  
 LinkedIn: <https://www.linkedin.com/in/specttek/>
+<<<<<<< HEAD
 
+=======
+email: specttek@gmail.com
+>>>>>>> 4f9fe066fb18dc843168a925c410ec8ea7a42656
