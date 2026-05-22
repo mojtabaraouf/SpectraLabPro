@@ -353,7 +353,6 @@ Default password:
 SpectTek
 =======
 email to specttec@gmail.com
->>>>>>> 4f9fe066fb18dc843168a925c410ec8ea7a42656
 ```
 
 ---
@@ -361,7 +360,6 @@ email to specttec@gmail.com
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
->>>>>>> 4f9fe066fb18dc843168a925c410ec8ea7a42656
 ## Measurement Workflow
 
 ### 1. Set exposure
@@ -503,7 +501,7 @@ Imported spectra are automatically assigned to:
 ## Importing External Spectrum CSV Files
 
 The GUI can import external spectrum files from the hard drive.
->>>>>>> 4f9fe066fb18dc843168a925c410ec8ea7a42656
+ 
 
 Click:
 
@@ -518,7 +516,6 @@ Import Spectrum CSV
 ```
 
 The CSV file should contain either:
->>>>>>> 4f9fe066fb18dc843168a925c410ec8ea7a42656
 
 ```text
 wavelength_nm,intensity
@@ -737,7 +734,6 @@ Contains a summary of the diagnostic H₂O and CO₂ lines/bands used in the sof
 
 ---
 
->>>>>>> 4f9fe066fb18dc843168a925c410ec8ea7a42656
 ## Important Notes About Interpretation
 
 A single optical line is not always unique to one molecule.
@@ -884,7 +880,6 @@ Planned or possible extensions:
 <<<<<<< HEAD
 =======
 <img width="1430" height="787" alt="Screenshot 2026-05-21 at 23 22 29" src="https://github.com/user-attachments/assets/c93f3327-8357-4f31-8449-628b1959c424" />
->>>>>>> 4f9fe066fb18dc843168a925c410ec8ea7a42656
 
 ## Citation / Acknowledgment
 
@@ -904,4 +899,3 @@ LinkedIn: <https://www.linkedin.com/in/specttek/>
 
 =======
 email: specttek@gmail.com
->>>>>>> 4f9fe066fb18dc843168a925c410ec8ea7a42656
