@@ -348,7 +348,7 @@ The software asks for a password before connecting.
 
 Default password:
 ```
-email to specttec@gmail.com
+email to specttek@gmail.com
 ```
 
 
