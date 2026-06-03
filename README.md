@@ -900,8 +900,162 @@ SpectraLab Dual-Range Volatile Tracer Suite, SpectTek Co., 2026.
 
 **SpectTek Co.**  
 LinkedIn: <https://www.linkedin.com/in/specttek/>
-<<<<<<< HEAD
 
 =======
 email: specttek@gmail.com
->>>>>>> 4f9fe066fb18dc843168a925c410ec8ea7a42656
+
+
+
+
+
+# SpectraLab Vibrations
+
+**SpectraLab Vibrations** is a real-time Python GUI developed for monitoring vibration-induced optical signals from solid metal surfaces using Ocean Optics / SeaBreeze spectrometers.
+
+Developed by **SpectTek Co.**  
+LinkedIn: https://www.linkedin.com/in/specttek/
+
+## Purpose
+
+This software combines spectral acquisition and vibration analysis in one interface. It is designed for feasibility studies in non-contact optical defect detection.
+
+It can be used to:
+
+- Monitor optical oscillations at selected wavelengths
+- Perform live FFT analysis
+- Compare detected vibration frequency with a known shaker/metal frequency
+- Identify possible defect indicators such as frequency drift, stiffness changes, cracks, or unstable surface response
+- Export spectra, time-domain signals, FFT results, and live recorded spectral data
+
+## Main Features
+
+### Spectrometer Settings
+
+The **Spectrometer Settings** tab allows the user to:
+
+- Enter integration time
+- Set scans to average
+- Connect to an Ocean Optics / SeaBreeze spectrometer
+- Capture a dark spectrum
+- Capture a reference spectrum
+
+A passkey is required before hardware connection.
+
+Default passkey:
+
+```text
+SpectTek
+````
+
+### Vibrations Monitoring
+
+The **Vibrations Monitoring** tab allows the user to:
+
+* Select monitoring wavelengths
+* Enter the known metal/shaker frequency
+* Start or stop live vibration monitoring
+* View quick live quantities, including:
+
+  * Dominant FFT frequency
+  * FFT amplitude
+  * Signal standard deviation
+  * Peak-to-peak variation
+  * Frequency drift from known frequency
+  * Basic defect status
+
+### Export Data
+
+The **Export Data** tab allows the user to:
+
+* Export the current spectrum
+* Export time-domain vibration data
+* Export FFT data
+* Start and stop live spectral recording
+
+During live spectral recording, every acquired spectrum is saved into a CSV file with:
+
+```text
+timestamp
+elapsed_time_s
+wavelength_nm
+intensity
+```
+
+## Scientific Use Case
+
+The application is intended for optical monitoring of vibrating metal surfaces. When a metal sample is mechanically excited, surface defects such as cracks, fatigue, loosened regions, or stiffness changes may modify the reflected or scattered optical signal.
+
+By tracking selected wavelengths and applying FFT analysis, the software can estimate vibration-related optical modulation and compare it with the known excitation frequency.
+
+## Requirements
+
+Install the required Python packages:
+
+```bash
+pip install numpy pandas scipy matplotlib seabreeze
+```
+
+Tkinter is usually included with Python. On Linux, it may need to be installed separately:
+
+```bash
+sudo apt-get install python3-tk
+```
+
+## Running the Software
+
+Run the script with:
+
+```bash
+python spectralab_vibrations.py
+```
+
+## Basic Workflow
+
+1. Open the software.
+2. Go to **Spectrometer Settings**.
+3. Enter integration time and scans to average.
+4. Click **Connect Spectrometer**.
+5. Enter the passkey:
+
+```text
+Ask specttek@gmail.com
+```
+
+6. Capture a dark spectrum with the light blocked.
+7. Capture a reference spectrum if reflectance normalization is needed.
+8. Go to **Vibrations Monitoring**.
+9. Enter the wavelengths to monitor, for example:
+
+```text
+650.0, 780.0
+```
+
+10. Enter the known shaker frequency in Hz.
+11. Click **Start Monitoring**.
+12. View the live spectrum, time-domain signal, FFT, and defect indicators.
+13. Go to **Export Data** to save results or record live spectra.
+
+## Output Files
+
+The software can generate CSV files for:
+
+* Current spectrum
+* Time-domain vibration signal
+* FFT spectrum
+* Full live spectral recording
+
+## Notes
+
+* The detected FFT frequency should be interpreted together with the known shaker frequency.
+* Large frequency drift may indicate stiffness changes or defect formation.
+* High optical oscillation amplitude may indicate cracks, loose regions, or strong surface vibration.
+* This software is intended for feasibility studies and research use, not final industrial certification without calibration and validation.
+
+## License
+
+This project can be distributed under the MIT License or another license selected by SpectTek Co.
+
+
+
+
+
