@@ -347,21 +347,11 @@ Connect Both
 The software asks for a password before connecting.
 
 Default password:
-
-```text
-<<<<<<< HEAD
-SpectTek
-=======
+```
 email to specttec@gmail.com
->>>>>>> 4f9fe066fb18dc843168a925c410ec8ea7a42656
 ```
 
----
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 4f9fe066fb18dc843168a925c410ec8ea7a42656
 ## Measurement Workflow
 
 ### 1. Set exposure
@@ -503,7 +493,6 @@ Imported spectra are automatically assigned to:
 ## Importing External Spectrum CSV Files
 
 The GUI can import external spectrum files from the hard drive.
->>>>>>> 4f9fe066fb18dc843168a925c410ec8ea7a42656
 
 Click:
 
@@ -518,7 +507,6 @@ Import Spectrum CSV
 ```
 
 The CSV file should contain either:
->>>>>>> 4f9fe066fb18dc843168a925c410ec8ea7a42656
 
 ```text
 wavelength_nm,intensity
@@ -735,9 +723,6 @@ Contains:
 
 Contains a summary of the diagnostic H₂O and CO₂ lines/bands used in the software.
 
----
-
->>>>>>> 4f9fe066fb18dc843168a925c410ec8ea7a42656
 ## Important Notes About Interpretation
 
 A single optical line is not always unique to one molecule.
@@ -879,33 +864,6 @@ Planned or possible extensions:
 - simultaneous saving of UV/VIS and SWIR spectra
 - real-time gas concentration estimation
 - support for non-SeaBreeze spectrometers
-
----
-<<<<<<< HEAD
-=======
-<img width="1430" height="787" alt="Screenshot 2026-05-21 at 23 22 29" src="https://github.com/user-attachments/assets/c93f3327-8357-4f31-8449-628b1959c424" />
->>>>>>> 4f9fe066fb18dc843168a925c410ec8ea7a42656
-
-## Citation / Acknowledgment
-
-If this software is used in research, reports, or demonstrations, please acknowledge:
-
-```text
-SpectraLab Dual-Range Volatile Tracer Suite, SpectTek Co., 2026.
-```
-
----
-
-## Contact
-
-**SpectTek Co.**  
-LinkedIn: <https://www.linkedin.com/in/specttek/>
-
-=======
-email: specttek@gmail.com
-
-
-
 
 
 # SpectraLab Vibrations
@@ -1054,6 +1012,25 @@ The software can generate CSV files for:
 ## License
 
 This project can be distributed under the MIT License or another license selected by SpectTek Co.
+
+
+## Citation / Acknowledgment
+
+If this software is used in research, reports, or demonstrations, please acknowledge:
+
+```text
+SpectraLab Dual-Range Volatile Tracer Suite, SpectTek Co., 2026.
+```
+
+---
+
+## Contact
+**SpectTek Co.**  
+LinkedIn: <https://www.linkedin.com/in/specttek/>
+=======
+email: specttek@gmail.com
+
+<img width="1254" height="1254" alt="logo" src="https://github.com/user-attachments/assets/8ff87fc3-2fd1-4bca-85a1-29c397ef3a62" />
 
 
 
