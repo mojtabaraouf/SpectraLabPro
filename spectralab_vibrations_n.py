@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-SpectraLab Vibrations
+SpectraLab Vibrations - n
 =====================
 
 A real-time spectrometer GUI for monitoring vibration-induced optical signals
